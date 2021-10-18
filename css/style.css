@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.container{
+    max-width: 1270px;
+    height: auto;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    color: #4B9BE6;
+}
+body{
+    font-family: sans-serif;
+}
+.main-div{
+    display: flex;
+    align-items: center;
+
+
+}
+.logo{
+    width: 20%;
+    display: flex;
+}
+.navbar{
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+    padding-right: 30px;
+
+}
+.img-fulid{
+    width: 100%;
+    height: auto;
+}
+.btn{
+    display: flex;
+    width: 15%;
+}
+.btn button{
+    color: white;
+    background-color: #DE4313;
+    border: none;
+    font-size: 18px;
+    padding: 12px 20px 12px 32px;
+}
+.btn button:hover{
+    background-color: #0871D6;
+}
+.hero-section h1{
+    text-align: center;
+    color: #0172DC;
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 84px;
+    line-height: 84px
+}
+.hero-section h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    font-family: -webkit-pictograph;
+    line-height:64px;
+    color: #222222;
+    font-style: normal;
+}
+.counter-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.counter-1{
+    width: 33%;
+    text-align: center;
+    padding: 50px;
+}
+.counter-1 span{
+    color:#DE4313 ;
+    font-size: 45px;
+    font-weight: 700;
+}
+.counter-2{
+    width: 33%;
+    text-align: center;
+    padding: 50px;
+}
+.counter-2 span{
+    color:#0871D6 ;
+    font-size: 45px;
+    font-weight: 700;
+}
+.counter-3 span{
+    color: #89C30C;
+    font-size: 45px;
+    font-weight: 700;
+}
+.counter-3{
+    width: 33%;
+    text-align: center;
+    padding: 50px;
+}
